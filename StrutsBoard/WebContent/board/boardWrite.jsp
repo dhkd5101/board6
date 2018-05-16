@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/StrutsBoard1/board/common/css/css.css"
 	type="text/css"></link>
 <SCRIPT type="text/javascript">
-	function validation(){
+	funtion validation(){
 		var frm = document.forms(0);
 		
 		if(frm.subject.value == ""){
@@ -50,7 +50,7 @@
 
 	<s:else>
 		<form action="modifyAction.action" method="post"
-			enctype="multipart/form-data">
+			enctype="nultipart/form-data">
 			<s:hidden name="no" value="%{resultClass.no}" />
 			<s:hidden name="currentPage" value="%{currentPage}" />
 			<s:hidden name="old_file" value="%{resultClass.file_savname }" />
