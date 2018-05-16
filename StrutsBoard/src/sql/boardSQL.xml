@@ -61,7 +61,7 @@
 		CONTENT,
 		REGDATE
 		)
-		VALUES (SBOARD_123_NO_SEQ.NEXTVAL,
+		VALUES (SBOARD_NO_SEQ_123.NEXTVAL,
 		#subject#,
 		#name#,
 		#password#,
